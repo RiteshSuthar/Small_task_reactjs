@@ -1,0 +1,215 @@
+/* Navbar */
+
+.nav-bg {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0;
+}
+
+.carousel img {
+  max-height: 80vh;
+}
+@media screen and (min-width: 1335px) {
+  .carousel img {
+    width: 100%;
+  }
+}
+.navbar .fa-bars {
+  transform: scale(1.5, 1);
+}
+.navbar .navbar-brand {
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+}
+.nav-link {
+  color: #000;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  padding: 0;
+}
+.link {
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}
+.nav-item {
+  padding: 0 8px 0 8px;
+}
+.navbar .navbar-nav-right {
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: auto;
+}
+.navbar .navbar-nav-right img {
+  max-width: 30px;
+  cursor: pointer;
+}
+.navbar .navbar-nav-right i {
+  font-size: 22px;
+  cursor: pointer;
+  padding: 5px;
+}
+.home_products .row,
+.col-lg-4 {
+  margin: 0;
+  padding: 0.5rem;
+}
+.home_products {
+  margin-top: 10px;
+}
+.home_products .img-fluid {
+  height: 100%;
+}
+.hr hr {
+  height: 1px;
+  width: 50%;
+  opacity: 1;
+  margin-inline: auto;
+  margin-bottom: 0;
+  margin-top: 2.5rem;
+}
+.home_products .row .col-lg-4 {
+  position: relative;
+}
+.home_products .row .col-lg-4 .pro_template {
+  background: linear-gradient(
+    to top,
+    rgba(252, 185, 103, 0.9) 0,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transition: opacity 0.25s linear;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  opacity: 0.01;
+  text-transform: uppercase;
+  display: block;
+  cursor: pointer;
+}
+.home_products .row .col-lg-4:hover .pro_template {
+  opacity: 1;
+}
+.home_products .row .col-lg-4 .pro_template .pro_content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: "Besley", serif;
+  color: rgb(241, 241, 241);
+}
+.footer {
+  margin: 15px 0;
+}
+.footer ul h4,
+ul li,
+ul p {
+  color: #332f2f;
+  font-size: 14px;
+}
+.footer ul {
+  list-style: none;
+  margin: 2px 0 2px 0;
+}
+.footer .follow_us .socio i {
+  float: left;
+  padding: 1px 3px;
+}
+.footer .newsletter ul input {
+  padding: 7px;
+  font-size: 12px;
+  border: 1px solid #939da5;
+}
+.footer .newsletter ul button {
+  background: #232361;
+  border: none;
+  padding: 9px;
+  color: #f9f9f9;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.login_back form h2,
+.register_back form h2 {
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+.login_back {
+  position: relative;
+  background-image: url("img/login_back.jpg");
+  width: 100%;
+  height: 100vh;
+}
+.register_back {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.login_panel,
+.register_panel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login_panel .heading,
+.heading h1 {
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 90px;
+}
+.login_panel a {
+  font-size: 13px;
+  color: #000;
+}
+.login_panel button {
+  border: 1px solid #000;
+  background: transparent;
+  padding: 0.5rem 2rem;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.login_panel .btns button {
+  padding: 0.3rem 0.7rem !important;
+  font-size: 15px;
+}
+.register_back .register_panel .hr hr {
+  width: 100%;
+}
+.products .card a {
+  text-decoration: none;
+  color: #000;
+}
+.products .card a:hover {
+  text-decoration: underline;
+}
+.products .card .card-body p {
+  margin-bottom: 0;
+}
+.products .card .card-body p:nth-child(2) {
+  margin-top: 10px;
+}
+.products .right_part {
+  position: relative;
+}
+.products .right_part .right_part_temp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.products .right_part .cat_header,
+.pro_header span,
+.artist span {
+  text-transform: uppercase;
+  border-bottom: 1px solid #8e8e8e;
+}
+.products .right_part .img_round img {
+  width: 60px;
+  border: 2px solid #000;
+  border-radius: 50px;
+}
